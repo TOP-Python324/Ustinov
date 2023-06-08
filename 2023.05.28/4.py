@@ -1,10 +1,11 @@
+# ПЕРЕИМЕНОВАТЬ: клетка (игрового) поля — square, field
 first = input()
 second = input()
-if (ord(first[0])+int(first[1])+ord(second[0])+int(second[1]))%2 == 0:
-    print ('да')
-else:
-    print ('нет')
 
+if (ord(first[0]) + int(first[1]) + ord(second[0]) + int(second[1])) % 2 == 0:
+    print('да')
+else:
+    print('нет')
 
 
 # D:\Python\Ustinov\2023.05.28>4.py
@@ -21,3 +22,5 @@ else:
 # b2
 # f7
 # нет
+
+

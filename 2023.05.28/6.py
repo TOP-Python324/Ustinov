@@ -1,9 +1,10 @@
 first = input()
 second = input()
-if abs(ord(first[0])-ord(second[0])) < 2 and abs(int(first[1])-int(second[1])) < 2:
-    print ('да')
+
+if abs(ord(first[0]) - ord(second[0])) < 2 and abs(int(first[1]) - int(second[1])) < 2:
+    print('да')
 else:
-    print ('нет')
+    print('нет')
 
 
 # D:\Python\Ustinov\2023.05.21>6.py
@@ -20,3 +21,5 @@ else:
 # f4
 # g2
 # нет
+
+

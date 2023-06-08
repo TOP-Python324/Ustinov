@@ -1,10 +1,11 @@
-year=int(input())
-if (year%4 == 0 and year%100 != 0) or year%400 == 0:
-    print ('да')
+year = int(input())
+# ИСПОЛЬЗОВАТЬ: круглые скобки не нужны, потому что приоритет оператора or и так ниже чем оператора and
+if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    print('да')
 else:
-    print ('нет')
-    
-    
+    print('нет')
+
+
 # D:\Python\Ustinov\2023.05.28>3.py
 # 2018
 # нет
@@ -20,3 +21,5 @@ else:
 # D:\Python\Ustinov\2023.05.28>3.py
 # 2015
 # нет
+
+
