@@ -1,7 +1,9 @@
+# ПЕРЕИМЕНОВАТЬ: кстати, почему не alpha и beta?
 first = input()
 second = input()
 
-if abs(ord(first[0]) - ord(second[0])) < 2 and abs(int(first[1]) - int(second[1])) < 2:
+# ИСПОЛЬЗОВАТЬ: двойка здесь вызывает некоторый когнитивный диссонанс, несмотря на то, что использована правильно — но лучше всё-таки использовать другой оператор и единицу
+if abs(ord(first[0]) - ord(second[0])) <= 1 and abs(int(first[1]) - int(second[1])) <= 1:
     print('да')
 else:
     print('нет')
@@ -23,3 +25,4 @@ else:
 # нет
 
 
+# ИТОГ: отлично — 4/4

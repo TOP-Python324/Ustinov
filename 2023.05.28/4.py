@@ -2,6 +2,7 @@
 first = input()
 second = input()
 
+# ОТВЕТИТЬ: сами додумались или нашли где-то такое решение?
 if (ord(first[0]) + int(first[1]) + ord(second[0]) + int(second[1])) % 2 == 0:
     print('да')
 else:
@@ -24,3 +25,4 @@ else:
 # нет
 
 
+# ИТОГ: отлично — 5/5
