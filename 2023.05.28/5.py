@@ -1,11 +1,13 @@
+# ПЕРЕИМЕНОВАТЬ: "первый, первый, я второй, приём!"
 first = input()
 second = input()
-if first[0]== second[0] or first[1] == second[1]:
-    print ('да')
+
+if first[0] == second[0] or first[1] == second[1]:
+    print('да')
 else:
-    print ('нет')
-    
-    
+    print('нет')
+
+
 # D:\Python\Ustinov\2023.05.28>5.py
 # h1
 # h8
@@ -20,3 +22,6 @@ else:
 # h1
 # f5
 # нет
+
+
+# ИТОГ: отлично — 3/3
